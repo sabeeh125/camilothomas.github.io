@@ -1,0 +1,40 @@
+h1 {
+	font-size: 4.5em;
+	text-align: center;
+}
+
+body {
+	background-color: #b22222;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+#camo_top {
+	
+	color: #FFFFFF;
+	position: relative;
+	animation-name: animetop;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes animetop{
+	/*0%	{top: -50vh;}
+	100% {top: 0;}*/
+	from {top: -20vh; color: #FFFFFF;}
+	to {top: 0; color: #000000;}
+}
+
+#italic{
+	display: block;
+	font-style: italic;
+}
+
+.imgs {
+	display: block;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	padding: 30px;}
