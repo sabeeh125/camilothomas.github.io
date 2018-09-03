@@ -4,7 +4,7 @@ h1 {
 }
 
 body {
-	background-color: #b22222;
+	background-color: blanchedalmond;
 	padding: 0;
 	margin: 0;
 	text-align: left;
@@ -12,22 +12,22 @@ body {
 
 #camo_top {
 	
-	color: #FFFFFF;
+	color: black;
 	position: relative;
 	animation-name: animetop;
-	animation-duration: 1.5s;
+	animation-duration: 2s;
 	animation-fill-mode: forwards;
 }
 
 @keyframes animetop{
 	/*0%	{top: -50vh;}
 	100% {top: 0;}*/
-	from {top: -20vh; color: #FFFFFF;}
-	to {top: 0; color: #000000;}
+	from {top: -15vh; color: blanchedalmond;}
+	to {top: 0; color: saddlebrown;}
 }
 
 #italic{
-	font-style: italic;
+	font-style: block;
 }
 
 .imgs {
@@ -35,5 +35,11 @@ body {
 	
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 30px;
-	padding: 30px;}
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-right: 32px solid blanchedalmond;
+	border-left: 32px solid blanchedalmond;
+	border-top: 12px solid chocolate;
+	border-bottom: 12px solid chocolate;
+	padding: 10px;
+	background-color: saddlebrown;}
