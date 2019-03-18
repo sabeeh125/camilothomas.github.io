@@ -12,6 +12,45 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Concert One' rel='stylesheet'>
+  <style>
+  	nav {
+  		font-family: 'Artifika';
+}
+    .container-fluid {
+          
+          background-image: url("images/block.jpg");
+          /*background-position: center;*/
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-color: grey;
+          
+          color: black;
+          font-family: 'Artifika';         
+        }
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:hover {
+      text-decoration: none;
+      color: black;
+    }
+
+    a:active {
+      text-decoration: none;
+      color: black;
+    }
+
+  </style>
 
 </head>
 
@@ -32,7 +71,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Services</a>
@@ -46,20 +85,40 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-	<h1 class="mt-5">Shedding</h1>
-	<img src='images/camilo.png' class='img-fluid' alt='Camilo Pipe'>
-	<img src='images/silverBack534x293.png' class='img-fluid' alt='Snakeskin'>
-	<img src='UnderConstruction.png' width=72 height=60>
-        <p class="lead">Projects</p>
-        <ul class="list-unstyled">
-	  <li><a target='_blank' href='geoQuiz/ca.html'>Geo Quiz</a></li>
-          <li>jQuery 3.3.1</li>
-        </ul>
+  <div class="container-fluid" >
+    <div class="row" >
+      <div class="col-lg-6 text-center">
+	    <!--<h1 class="mt-5">Home</h1>-->
+        <div style="background-color: rgba(201, 201, 201, 0.6); margin: 0px; margin-top: 15px; border-radius: 15px;">
+          <h1 style="font-family: 'Concert One';">My Projects</h1>
+          <ul class="list-unstyled" style="background-color: rgba(201, 201, 76, 0.3); border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; padding: 10px;">
+	        <li><a target='_blank' href='geoQuiz/ca.html' style="padding-left: 10px; padding-right: 10px; padding-bottom: 3px; border-radius: 5px; background-color: rgba(255, 255, 255, 0.6); font-family: 'Concert One'; font-size: 22px">Geo Quiz</a>
+          <div class="row" style="margin:0px; margin-top: 5px;">
+            <div class="col-lg-4 text-center">
+              <img src="images/mapo.jpg" class="img-fluid" alt="thumbnail of map application" style="margin:10px; border-radius: 5px;">
+            </div>
+            <div class="col-lg-8 text-center" style='margin-top: 10px;'>
+              <p>Test your Central America geography knowledge. This application uses 2D Canvas animation. Neque obcaecati impedit, quaerat at esse quasi? Eum officiis aspernatur dolores ipsum, harum est earum esse repellat.</p>
+            </div>
+          </div>
+          </li>
+          <li><a target='_blank' href='http://interns-oct2018.s3-website-us-east-1.amazonaws.com/' style="padding-left: 10px; padding-right: 10px; padding-bottom: 3px; border-radius: 5px; background-color: rgba(255, 255, 255, 0.6); font-family: 'Concert One'; font-size: 22px">KPI Dashboard</a>
+            <div class="row" style="margin:0px; margin-top: 5px;">
+            <div class="col-lg-4 text-center">
+              <img src="images/chart.jpg" class="img-fluid" alt="thumbnail of kpi dashboard application" style="margin:10px; border-radius: 5px;">
+            </div>
+            <div class="col-lg-8 text-center" style='margin-top: 10px;'>
+              <p>This application uses the Trello KPI to provide real time 'Created vs. Resolved Rate' data for a project. Neque obcaecati impedit, quaerat at esse quasi? Eum officiis aspernatur dolores ipsum, harum est earum esse repellat.</p>
+            </div>
+            </div>
+
+          </li>
+          </ul>
+        </div>
       </div>
-    </div>
+      <div class="col-lg-6 text-center">
+      	<img src="images/thatEagle.jpg" class="img-fluid" alt="Bald Eagle" style="opacity: 1; margin-top: 15px; margin-bottom: 20px; border-radius: 100px;">
+	  </div>
   </div>
 
   <!-- Bootstrap core JavaScript -->
