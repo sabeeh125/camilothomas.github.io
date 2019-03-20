@@ -12,12 +12,12 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Artifika' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Concert One' rel='stylesheet'>
-  <link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
   <style>
   	nav {
-  		font-family: 'Artifika';
+  		font-family: 'Domine';
+      background-image: url("images/snow.jpg");
+      background-color: rgba(0,0,0,1);     
 }
     .container-fluid {
           
@@ -29,7 +29,7 @@
           background-color: black;
           
           color: black;
-          font-family: 'Artifika';         
+          font-family: 'Domine';         
         }
     a:link {
       text-decoration: none;
@@ -51,6 +51,8 @@
       color: black;
     }
 
+
+
   </style>
 
 </head>
@@ -60,7 +62,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="#" style="font-family: 'Holtwood One SC';">Camilo Embree-Lowry</a>
+      <a class="navbar-brand" href="#">Camilo Embree-Lowry</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -74,12 +76,6 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
         </ul>
       </div>
     </div>
@@ -90,25 +86,25 @@
     <div class="row" >
       <div class="col-lg-6 text-center">
 	    <!--<h1 class="mt-5">Home</h1>-->
-        <div style="background-color: rgba(201, 201, 201, 0.6); margin: 0px; margin-top: 15px; border-radius: 15px;">
-          <h1 style="font-family: 'Concert One';">My Projects</h1>
-          <ul class="list-unstyled" style="background-color: rgba(201, 201, 76, 0.3); border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; padding: 10px;">
-	        <li><a target='_blank' href='geoQuiz/ca.html' style="padding-left: 10px; padding-right: 10px; padding-bottom: 3px; border-radius: 5px; background-color: rgba(255, 255, 255, 0.6); font-family: 'Concert One'; font-size: 22px">Geo Quiz</a>
-          <div class="row" style="margin:0px; margin-top: 5px;">
-            <div class="col-lg-4 text-center">
-              <img src="images/mapo.jpg" class="img-fluid" alt="thumbnail of map application" style="margin:10px; border-radius: 5px;">
+        <div style="background-color: rgba(255, 250, 250, 0.5); box-shadow: 0 0 5pt 2pt black; margin: 0px; margin-top: 25px; border-radius: 15px;">
+          <h1>Projects</h1>
+          <ul class="list-unstyled" style="background-color: rgba(201, 201, 76, 0.2); border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; padding: 10px;">
+	        <li><a target='_blank' href='geoQuiz/ca.html' style="box-shadow: 0 0 3pt 2pt darkslategray; padding-left: 10px; padding-right: 10px; padding-bottom: 3px; padding-top: 3px; border-radius: 5px; background-color: rgba(255, 250, 250, 0.6); font-size: 18px">Geo Quiz</a>
+          <div class="row" style="margin-top: 10px">
+            <div class="col-lg-3 text-center">
+              <img src="images/mapo.jpg" class="img-fluid" alt="thumbnail of map application" style="border-radius: 5px;">
             </div>
-            <div class="col-lg-8 text-center" style='margin-top: 10px;'>
+            <div class="col-lg-9 text-center">
               <p>Test your Central America geography knowledge. This application uses 2D Canvas animation. Neque obcaecati impedit, quaerat at esse quasi? Eum officiis aspernatur dolores ipsum, harum est earum esse repellat.</p>
             </div>
           </div>
           </li>
-          <li><a target='_blank' href='http://interns-oct2018.s3-website-us-east-1.amazonaws.com/' style="padding-left: 10px; padding-right: 10px; padding-bottom: 3px; border-radius: 5px; background-color: rgba(255, 255, 255, 0.6); font-family: 'Concert One'; font-size: 22px">KPI Dashboard</a>
-            <div class="row" style="margin:0px; margin-top: 5px;">
-            <div class="col-lg-4 text-center">
-              <img src="images/chart.jpg" class="img-fluid" alt="thumbnail of kpi dashboard application" style="margin:10px; border-radius: 5px;">
+          <li><a target='_blank' href='http://interns-oct2018.s3-website-us-east-1.amazonaws.com/' style="box-shadow: 0 0 3pt 2pt darkslategray; padding-left: 10px; padding-right: 10px; padding-bottom: 3px; padding-top: 3px; border-radius: 5px; background-color: rgba(255, 250, 250, 0.6); font-size: 18px">KPI Dashboard</a>
+            <div class="row" style="margin-top: 10px">
+            <div class="col-lg-3 text-center">
+              <img src="images/chart.jpg" class="img-fluid" alt="thumbnail of kpi dashboard application" style="border-radius: 5px;">
             </div>
-            <div class="col-lg-8 text-center" style='margin-top: 10px;'>
+            <div class="col-lg-9 text-center">
               <p>This application uses the Trello KPI to provide real time 'Created vs. Resolved Rate' data for a project. Neque obcaecati impedit, quaerat at esse quasi? Eum officiis aspernatur dolores ipsum, harum est earum esse repellat.</p>
             </div>
             </div>
