@@ -110,6 +110,7 @@ window.onresize = function() {
 
 canvas.ontouchdown = function() {
   pressed = true;
+  imgSetter('xxx');
 };
 canvas.ontouchup = function() {
   pressed = false;
