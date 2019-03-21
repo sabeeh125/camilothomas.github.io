@@ -108,7 +108,11 @@ window.onresize = function() {
   drawMap();
 }
 
-canvas.ontouchdown = function() {
+/*
+TOUCH EVENTS
+*/
+let mousePos;
+canvas.addEventListener("touchstart") = function(e) {
   pressed = true;
   imgSetter('xxx');
 };
