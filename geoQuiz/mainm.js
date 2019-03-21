@@ -7,9 +7,9 @@ let paragraph = document.querySelector('p');
 TOUCH EVENTS
 */
 let mousePos;
-document.addEventListener("touchstart") = function(e) {
+document.addEventListener("touchstart", function(e) {
   paragraph.textContent = 'Maria Angeles';;
-};
+});
 /*
 canvas.ontouchup = function() {
   pressed = false;
