@@ -108,19 +108,23 @@ window.onresize = function() {
   drawMap();
 }
 
+canvas.addEventListener("touchstart", function(ev) {
+  ev.preventDefault();
+})
+
 canvas.onmousedown = function(e) {
-  e.preventDefault();
+ 
   pressed = true;
 };
 canvas.onmouseup = function(e) {
-  e.preventDefault();
+
   pressed = false;
 };
 
 // update mouse pointer coordinates
 
 canvas.onmousemove = function(e) {
-  e.preventDefault();
+
   curX = (window.Event) ? e.pageX : e.clientX + (document.documentElement.scrollLeft ? 
     document.documentElement.scrollLeft : document.body.scrollLeft);
   curY = (window.Event) ? e.pageY : e.clientY + (document.documentElement.scrollTop ?
