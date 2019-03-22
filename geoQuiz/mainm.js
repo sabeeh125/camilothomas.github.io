@@ -26,6 +26,11 @@ let countries = [['B', 'Belize', false, 75],
         ['H', 'Honduras', false, 125],
         ['N', 'Nicaragua', false, 145],
         ['P', 'Panama', false, 120]]; 
+
+
+
+
+
 /*****************
  * mouse related *
  *****************/
@@ -33,8 +38,6 @@ var pressed = false;
 var curX;
 var curY;
 let id;
-
-canvas.addEventListener('onclick', function(e) {});
 
 /*************
  * functions *
@@ -105,16 +108,19 @@ window.onresize = function() {
   drawMap();
 }
 
-canvas.onmousedown = function() {
+canvas.onmousedown = function(e) {
+  e.preventDefault();
   pressed = true;
 };
-canvas.onmouseup = function() {
+canvas.onmouseup = function(e) {
+  e.preventDefault();
   pressed = false;
 };
 
 // update mouse pointer coordinates
 
-document.onmousemove = function(e) {
+canvas.onmousemove = function(e) {
+  e.preventDefault();
   curX = (window.Event) ? e.pageX : e.clientX + (document.documentElement.scrollLeft ? 
     document.documentElement.scrollLeft : document.body.scrollLeft);
   curY = (window.Event) ? e.pageY : e.clientY + (document.documentElement.scrollTop ?
