@@ -34,6 +34,9 @@ var curX;
 var curY;
 let id;
 
+canvas.ontouchstart = function() {
+};
+
 /*************
  * functions *
  *************/
@@ -112,7 +115,7 @@ canvas.onmouseup = function() {
 
 // update mouse pointer coordinates
 
-document.onmousemove = function(e) {
+canvas.onmousemove = function(e) {
   curX = (window.Event) ? e.pageX : e.clientX + (document.documentElement.scrollLeft ? 
     document.documentElement.scrollLeft : document.body.scrollLeft);
   curY = (window.Event) ? e.pageY : e.clientY + (document.documentElement.scrollTop ?
