@@ -20,6 +20,8 @@ endImage.src = 'img/tucan.png';
 let newW;
 let newH;
 
+let gameOver = false;
+
 // let countries = [[name string, ifFound (bool), nameX]]
 let countries = [['B', 'Belize', false, 75],
 				['CR', 'Costa Rica', false, 130],
@@ -87,7 +89,7 @@ function drawMap() {
   // draw whatever map has been set
   ctx.drawImage(image, 0, 0, 1193, 873, 0, 0, newW, newH);
   drawNames();
-  console.log(image.src);
+  
   if (image.src.includes("img/BCRESGHNP.png")) {
     console.log("passesTest");
     drawTucan();
@@ -132,6 +134,10 @@ canvas.onmousemove = function(e) {
 function mainAnimation() {
   drawMap();
   let flag = false;
+  if (pressed && gameOver) {
+    if (curX > newW*.1 && curX < newW*.1+150 && curY < newH*.85+35 && curY > newH*.85)
+    resetGame();
+  }
   if (pressed) {
     if (id === undefined) {  
       if (!countries[6][2] && curX > 55 && curX < (countries[6][3] + 50)
@@ -238,11 +244,8 @@ function drawDragged(x) {
 function countryCoord() {
   ctx.strokeStyle = 'rgb(0,0,0)';
   ctx.lineWidth = 1;
-  ctx.strokeRect(newW*.31, newH*.0675, newW *.0725, newH * .18);
-  ctx.beginPath();
-  ctx.moveTo(newW*.475, newH*.6425);
-  ctx.lineTo(newW*.625, newH*.784);
-  //ctx.stroke();    
+  ctx.strokeRect(newW*.1, newH*.85, 150, 35);
+  //curX > newW*.1 && curX < newW*.1+150 && curY < newH*.85+35 && curY > newH*.85    
 }
 // let's get active
 //paintBGblack();
@@ -250,56 +253,53 @@ setNewWH();
 imgSetter('A.png');
 image.onload = mainAnimation;
 
+// after successfully completing the quiz
+// toucan animations begin and include a reset button
+
 let endCounter = 0;
 let xyz = 1;
+let dimmer = 0;
 
 function drawTucan() {
-  ctx.fillStyle = 'rgba(255,255,255,.5)';
-  ctx.fillRect(0, 0, newW, newH);
   
-  if (endCounter < 500) {
+  
+  if (endCounter < 225) {
     if (endCounter % 1 === 0) {
-      xyz = xyz - .002;
+      xyz = xyz - .004;
     }
-    
-    ctx.drawImage(endImage, newW * xyz, 0, newW, newH);  
+    if (endCounter % 5 === 0) {
+      dimmer = dimmer + .015;
+    }
+    ctx.fillStyle = 'rgba(255,255,255,'+dimmer+')';
+    ctx.fillRect(0, 0, newW, newH);
+    ctx.drawImage(endImage, newW * xyz, newH * xyz, newW, newH);  
     endCounter++;
   } else {
-    ctx.drawImage(endImage, 0, 0, newW, newH);
+    ctx.fillStyle = 'rgba(255,255,255,.675)';
+    ctx.fillRect(0, 0, newW, newH);
+    ctx.drawImage(endImage, newW * .1, newH * .1, newW, newH);
+    //
+    ctx.fillText('Play Again', newW*.1, newH * .9);
+    ctx.lineWidth = 2.5;
+    ctx.strokeStyle = 'rgb(0,155,215)';
+    ctx.strokeText('Play Again', newW*.1, newH * .9);
+    ctx.lineWidth = 1.5;
+    ctx.strokeStyle = 'rgb(0,0,50)';
+    ctx.strokeText('Play Again', newW*.1, newH * .9);
+    //
+
+    gameOver = true;
   }
   
 }
 
-/*
-Panama Rect .625,.675,.295,.165
-subsections: N/A
-
-Nicaragua Rect .385,.305,.23,.295
-subsections: wrong x2 .385,.305, .035, .1325; .385,.305,0.35,.1325;
-             .385,.305,.11,.065; .585,.305, .23, .024;
-
-Honduras Rect .3025,.2375,.3125,.2115
-*/
-
-/*
-//*****TESTING COORDINATES*****  <-- nice honduras example for screenshot etc
-function countryCoord() {
-  ctx.strokeStyle = 'rgb(0,0,0)';
-  ctx.lineWidth = 1;
-  ctx.strokeRect(newW*.3025, newH*.2375, newW *.3125, newH * .2115);
-  ctx.beginPath();
-  ctx.moveTo(newW*.4155, newH*.449);
-  ctx.lineTo(newW*.615, newH*.3075);
-  ctx.stroke();
-  ctx.beginPath();
-  ctx.moveTo(newW*.3025, newH*.3525);
-  ctx.lineTo(newW*.41, newH*.449);
-  ctx.stroke();
-  
-  // curX >= newW *.31 && curX <= newW *.61 &&
-  //             curY >= newH*.25 && curY <= newH*.45
-  
-  console.log("why not!");
-  // 
-  //    
-}*/
+function resetGame() {
+  imgSetter('A.png');
+  gameOver = false;
+  endCounter = 0;
+  xyz = 1;
+  dimmer = 0;
+  countries.forEach(country => {
+    country[2] = false;
+  });
+}
