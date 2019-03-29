@@ -135,7 +135,7 @@ function mainAnimation() {
   drawMap();
   let flag = false;
   if (pressed && gameOver) {
-    if (curX > newW*.1 && curX < newW*.1+150 && curY < newH*.85+35 && curY > newH*.85)
+    if (curX  < newW*.3 && curY > newH*.8)
     resetGame();
   }
   if (pressed) {
