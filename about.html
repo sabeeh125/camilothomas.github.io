@@ -13,9 +13,10 @@
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
   <style>
   	nav {
-	    font-family: 'Domine';
+	    font-family: 'Capriola';
       background-image: url("images/black.png");
       background-color: rgba(0,0,0,1);   
   	}
@@ -41,7 +42,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Camilo Embree-Lowry</a>
+      <a class="navbar-brand" href="index.html">Camilo Embree-Lowry</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -87,7 +88,7 @@
     let bgImage = new Image();
     let wood = new Image();
     let myArt = new Image();
-    myArt.src = 'images/art2.jpg';
+    myArt.src = 'images/art.jpg';
     wood.src = 'images/hardwood.jpg';
     bgImage.src = 'images/1b.jpg'
     let incball = 500
@@ -102,16 +103,16 @@
       ctx.drawImage(bgImage, 0, 0, 296, 414);
       ctx.drawImage(myArt, theCanvas.width-489, 0, 489, 620)
       ctx.fillStyle = 'rgba(255,255,255,.5)';
-      ctx.fillRect(321, 15, 246, 300);
+      ctx.fillRect(326, 20, 236, 265);
       ctx.fillStyle = 'rgb(0,0,0)';
       ctx.font = '30px Fredoka One';
       ctx.fillText("Hi, I'm Camilo.", 336, 50);
   
       
-      ctx.fillText("I would like to", 336, 90);
+      ctx.fillText("I would like to", 351, 90);
       
 
-      ctx.fillText("make everything I", 336, 130);
+      ctx.fillText("make everything I", 335, 130);
       
       ctx.fillStyle = 'rgb(0,255,0)';
       ctx.fillText("touch", 336, 170);
