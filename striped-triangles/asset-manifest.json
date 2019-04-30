@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/striped-triangles/static/css/main.0d640535.chunk.css",
+    "main.js": "/striped-triangles/static/js/main.0f38030a.chunk.js",
+    "main.js.map": "/striped-triangles/static/js/main.0f38030a.chunk.js.map",
+    "runtime~main.js": "/striped-triangles/static/js/runtime~main.57351b2c.js",
+    "runtime~main.js.map": "/striped-triangles/static/js/runtime~main.57351b2c.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/striped-triangles/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/striped-triangles/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/striped-triangles/index.html",
+    "precache-manifest.8b85f4b2308773113c211ccab82550ec.js": "/striped-triangles/precache-manifest.8b85f4b2308773113c211ccab82550ec.js",
+    "service-worker.js": "/striped-triangles/service-worker.js",
+    "static/css/main.0d640535.chunk.css.map": "/striped-triangles/static/css/main.0d640535.chunk.css.map"
+  }
+}
