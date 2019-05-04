@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,KACC,qBACD,CAEA,kBACC,qBACD,CAEA,WACC,oBAAqB,CACrB,WACD","file":"main.0d640535.chunk.css","sourcesContent":["body { \r\n\tbackground-color: #666699;\r\n}\r\n\r\n.golden-rectangle {\r\n\tbackground-color: #ffff99;\r\n}\r\n\r\n.ctrlTitle {\r\n\tdisplay: inline-block;\r\n\twidth: 100px;\r\n}"]}
