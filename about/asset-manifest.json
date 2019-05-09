@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/about/static/css/main.324d4d51.chunk.css",
+    "main.js": "/about/static/js/main.aec2405a.chunk.js",
+    "main.js.map": "/about/static/js/main.aec2405a.chunk.js.map",
+    "runtime~main.js": "/about/static/js/runtime~main.c0e869d3.js",
+    "runtime~main.js.map": "/about/static/js/runtime~main.c0e869d3.js.map",
+    "static/css/2.22a7d4ef.chunk.css": "/about/static/css/2.22a7d4ef.chunk.css",
+    "static/js/2.a55ac973.chunk.js": "/about/static/js/2.a55ac973.chunk.js",
+    "static/js/2.a55ac973.chunk.js.map": "/about/static/js/2.a55ac973.chunk.js.map",
+    "index.html": "/about/index.html",
+    "precache-manifest.3b1271e337a5c00b9917bea4db46fc04.js": "/about/precache-manifest.3b1271e337a5c00b9917bea4db46fc04.js",
+    "service-worker.js": "/about/service-worker.js",
+    "static/css/2.22a7d4ef.chunk.css.map": "/about/static/css/2.22a7d4ef.chunk.css.map",
+    "static/css/main.324d4d51.chunk.css.map": "/about/static/css/main.324d4d51.chunk.css.map",
+    "static/media/index.css": "/about/static/media/Card_back_12.dd5c8815.svg",
+    "static/media/art.jpg": "/about/static/media/art.4f9df801.jpg",
+    "static/media/music.jpg": "/about/static/media/music.a88f05da.jpg",
+    "static/media/travel.jpg": "/about/static/media/travel.71eb7bc4.jpg"
+  }
+}
