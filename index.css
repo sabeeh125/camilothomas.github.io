@@ -1,0 +1,81 @@
+/*Star command blue
+css for main portfolio page*/
+
+body {
+  background-color: #006293;
+}
+
+nav {
+	/*font-family: 'Capriola';
+  background-image: url('images/black.png');*/
+}
+
+.container-fluid {    
+  color: black;
+  font-family: 'Domine';         
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+#eagle {
+  border-bottom-right-radius: 50%;
+}
+
+button:focus {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.projList {
+  background-color: rgba(255, 255, 255, .75);
+  padding: 10px;
+  box-shadow: 0 0 50px 5px #987654 inset;
+}
+
+.projList p {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.mainProj {
+  background-color: #987654;
+  /*box-shadow: 0 15px 15px 1px black;
+  margin-top: 15px;*/
+}
+
+.projButton {
+  
+  font-size: 27px;
+  padding: .25em;
+}
+
+.projHeader {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.warning {
+  margin: 0em;
+  color: red;
+}

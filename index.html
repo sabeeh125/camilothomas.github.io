@@ -2,70 +2,26 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
   <title>Camilo Embree-Lowry</title>
-
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
   <link href='https://fonts.googleapis.com/css?family=Capriola' rel='stylesheet'>
-  <style>
-
-    body {
-      background-image: url("images/block.jpg");
-      /*background-position: center;*/
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-color: black;
-    }
-  	nav {
-  		font-family: 'Capriola';
-      background-image: url("images/black.png");
-      background-color: rgba(0,0,0,1);     
-    }
-    .container-fluid {    
-      color: black;
-      font-family: 'Domine';         
-    }
-    
-    a:link {
-      text-decoration: none;
-      color: black;
-    }
-
-    a:visited {
-      text-decoration: none;
-      color: black;
-    }
-
-    a:hover {
-      text-decoration: none;
-      color: black;
-    }
-
-    a:active {
-      text-decoration: none;
-      color: black;
-    }
-
-
-
-  </style>
-
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "index.css" />
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <nav id="navbar-black" class="navbar navbar-expand-lg navbar-light bg-light static-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Camilo Embree-Lowry</a>
+      <span class="navbar-brand mb-0 h1">Camilo Embree-Lowry</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -88,43 +44,75 @@
   <div class="container-fluid" >
     <div class="row" >
       <div class="col-lg-6 text-center">
-	    <!--<h1 class="mt-5">Home</h1>-->
-        <div style="background-color: rgba(255, 250, 250, 0.5); box-shadow: 0 0 5pt 2pt black; margin: 0px; margin-top: 25px; border-radius: 15px;">
-          <h1>Projects</h1>
-          <ul class="list-unstyled" style="background-color: rgba(201, 201, 76, 0.2); border-bottom-left-radius: 15px; border-bottom-right-radius: 15px; padding: 10px;">
-	        <li><a target='_blank' href='geoQuiz/index.html' style="box-shadow: 0 0 3pt 2pt darkslategray; padding-left: 10px; padding-right: 10px; padding-bottom: 3px; padding-top: 3px; border-radius: 5px; background-color: rgba(255, 250, 250, 0.6); font-size: 18px">Geo Quiz</a>
-          <div class="row" style="margin-top: 10px">
-            <div class="col-lg-3 text-center">
-              <img src="images/mapo.jpg" class="img-fluid" alt="thumbnail of map application" style="border-radius: 5px;">
-            </div>
-            <div class="col-lg-9 text-center">
-              <p>Test your Central America geography knowledge. This application uses 2D Canvas animation.</p>
-            </div>
-          </div>
-          </li>
-          <li><a target='_blank' href='trelloKPI/index.html' style="box-shadow: 0 0 3pt 2pt darkslategray; padding-left: 10px; padding-right: 10px; padding-bottom: 3px; padding-top: 3px; border-radius: 5px; background-color: rgba(255, 250, 250, 0.6); font-size: 18px">KPI Dashboard</a>
-            <div class="row" style="margin-top: 10px">
-            <div class="col-lg-3 text-center">
-              <img src="images/chart.jpg" class="img-fluid" alt="thumbnail of kpi dashboard application" style="border-radius: 5px;">
-            </div>
-            <div class="col-lg-9 text-center">
-              <p>This application uses the Trello API to provide real time 'Created vs. Resolved Rate' data for a project.</p>
-            </div>
-            </div>
-
-          </li>
+        <div class="mainProj">
+          <h1 class="projHeader">Projects</h1>
+          <ul class="list-unstyled projList">
+	          <li>
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                  <form>
+                    <button type="submit" formtarget="_blank" formaction="geoQuiz/index.html" class="projButton"><b>Geo Quiz</b></button>
+                  </form>
+                  <p>Test your Central America geography knowledge. I learned about canvas animation while working through Mozilla's JavaScript tutorials.  I wanted to try a project that was useful and helped build my canvas and requestAnimationFrame() skills.  I learned that user experience is not automatic, but is painstakingly coded into the ways things work and feel.</p>
+                  <p class="warning">Unfortunately, the Geography Quiz is not mobile friendly.</p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="images/geoQuiz.jpg" class="img-fluid" alt="map application">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row align-items-center" style="margin-top: 50px">
+                <div class="col-lg-8">  
+                  <form>
+                    <button type="submit" formtarget="_blank" formaction="trelloKPI/index.html" class="projButton"><b>KPI Dashboard</b></button>
+                  </form>
+                  <p>This application uses the Trello API to provide real time 'Created vs. Resolved Rate' data for a project.  My first introduction to JavaScript was at my internship with Inventive Works.  Two other interns and myself were tasked with creating this dashboard.  This project also introduced me to REST APIs, Postman, Serverless, Node, AWS CLI and Lambda.  The internship was a great teamwork experience.  There are links to the Trello board and GitHub repo on the dashboard.</p>
+                </div>
+                <div class="col-lg-4">
+                  <img src="images/chart.jpg" class="img-fluid" alt="kpi dashboard">
+                </div>
+              </div>
+            </li>
           </ul>
+          <h1 class="projHeader">React Projects</h1>
+          <ul class="list-unstyled projList">
+            <li>
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                  <form>
+                    <button type="submit" formtarget="_blank" formaction="about/index.html" class="projButton"><b>About Camilo</b></button>
+                    <p>I used create-react-app to build this 'About Me' page.  I wanted a chance to show off some of my interests and to get more practice using React.  I gained valuable experience in laying out basic web content.  At first, I was focused on getting the carousel-like user interface up and running.  It wasn't until I got that working that I realized how much attention has to be paid to the details of laying out basic content such as writing and images.</p>
+                  </form>
+                </div>
+                <div class="col-lg-4">
+                  <img src="images/aboutCamilo.jpg" class="img-fluid" alt="about me page">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                  <form>
+                    <button type="submit" formtarget="_blank" formaction="striped-triangles/index.html" class="projButton"><b>Striped Triangles</b></button>
+                    <p>Draw different size triangles by seleting different radio buttons.  Most importantly, draw a striped triangle.  I wanted the challenge of identifying the slope of the different size triangles and using it to draw the separate parts of the striped triangle.  I was trying to come up with a way to combine my interest in React and HTML5 canvas.</p>
+                  </form>
+                </div>
+                <div class="col-lg-4">
+                  <img src="images/stripedTriangles.jpg" class="img-fluid" alt="about me page">
+                </div>
+              </div>
+            </li>
+          </ul>  
         </div>
       </div>
       <div class="col-lg-6 text-center">
-      	<img src="images/thatEagle.jpg" class="img-fluid" alt="Bald Eagle" style="opacity: 1; margin-top: 15px; margin-bottom: 20px; border-radius: 100px;">
-	  </div>
-  </div>
-
+      	<img id="eagle" src="images/thatEagle.jpg" class="img-fluid" alt="bald eagle">
+	    </div>
+    </div>
+  </div>  
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </body>
-
 </html>
