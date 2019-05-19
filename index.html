@@ -19,7 +19,7 @@
 <body>
 
   <!-- Navigation -->
-  <nav id="navbar-black" class="navbar navbar-expand-lg navbar-light bg-light static-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
     <div class="container">
       <span class="navbar-brand mb-0 h1">Camilo Embree-Lowry</span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,74 +41,165 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container-fluid" >
-    <div class="row" >
-      <div class="col-lg-6 text-center">
+  <div class="container-fluid">
+    <div class="row no-gutters">
+      <div class="col-md-7 text-center">
         <div class="mainProj">
           <h1 class="projHeader">Projects</h1>
           <ul class="list-unstyled projList">
 	          <li>
               <div class="row align-items-center">
-                <div class="col-lg-8">
-                  <form>
-                    <button type="submit" formtarget="_blank" formaction="geoQuiz/index.html" class="projButton"><b>Geo Quiz</b></button>
-                  </form>
-                  <p>Test your Central America geography knowledge. I learned about canvas animation while working through Mozilla's JavaScript tutorials.  I wanted to try a project that was useful and helped build my canvas and requestAnimationFrame() skills.  I learned that user experience is not automatic, but is painstakingly coded into the ways things work and feel.</p>
-                  <p class="warning">Unfortunately, the Geography Quiz is not mobile friendly.</p>
+                <div class="col-3">
                 </div>
-                <div class="col-lg-4">
+                <div class="col-6">
                   <img src="images/geoQuiz.jpg" class="img-fluid" alt="map application">
+                </div>
+                <div class="col-3">
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-12">
+                  <form>
+                    <button type="submit" formtarget="_blank" formaction="geoQuiz/index.html" class="projButton">Geo Quiz</button>
+                  </form>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-1">
+                </div>
+                <div class="col-10">
+                    <p>Test your Central America geography knowledge. I learned about canvas animation while working through Mozilla's JavaScript tutorials.  I wanted to try a project that was useful and helped build my canvas and requestAnimationFrame() skills.  I learned that user experience is not automatic, but is painstakingly coded into the ways things work and feel.
+                    <span class="warning">Unfortunately, the Geography Quiz is not mobile friendly.</span>
+                    </p>
+                </div>
+                <div class="col-1">
                 </div>
               </div>
             </li>
             <li>
-              <div class="row align-items-center" style="margin-top: 50px">
-                <div class="col-lg-8">  
+              <div class="row align-items-center">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                  <img src="images/chart.jpg" class="img-fluid" alt="kpi dashboard">
+                </div>
+                <div class="col-3">
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-12">
                   <form>
-                    <button type="submit" formtarget="_blank" formaction="trelloKPI/index.html" class="projButton"><b>KPI Dashboard</b></button>
+                    <button
+                     type="submit"
+                     formtarget="_blank"
+                     formaction="trelloKPI/index.html"
+                     class="projButton">KPI Dashboard
+                    </button>
                   </form>
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-1">
+                </div>
+                <div class="col-10">  
                   <p>This application uses the Trello API to provide real time 'Created vs. Resolved Rate' data for a project.  My first introduction to JavaScript was at my internship with Inventive Works.  Two other interns and myself were tasked with creating this dashboard.  This project also introduced me to REST APIs, Postman, Serverless, Node, AWS CLI and Lambda.  The internship was a great teamwork experience.  There are links to the Trello board and GitHub repo on the dashboard.</p>
                 </div>
-                <div class="col-lg-4">
-                  <img src="images/chart.jpg" class="img-fluid" alt="kpi dashboard">
+                <div class="col-1">
                 </div>
               </div>
             </li>
           </ul>
-          <h1 class="projHeader">React Projects</h1>
+          <h1 class="reactProjHeader">React Projects</h1>
           <ul class="list-unstyled projList">
             <li>
               <div class="row align-items-center">
-                <div class="col-lg-8">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                  <img src="images/aboutCamilo.jpg" class="img-fluid" alt="about me page">
+                </div>
+                <div class="col-3">
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-12">
                   <form>
-                    <button type="submit" formtarget="_blank" formaction="about/index.html" class="projButton"><b>About Camilo</b></button>
-                    <p>I used create-react-app to build this 'About Me' page.  I wanted a chance to show off some of my interests and to get more practice using React.  I gained valuable experience in laying out basic web content.  At first, I was focused on getting the carousel-like user interface up and running.  It wasn't until I got that working that I realized how much attention has to be paid to the details of laying out basic content such as writing and images.</p>
+                    <button
+                     type="submit"
+                     formtarget="_blank"
+                     formaction="about/index.html"
+                     class="projButton">About Camilo
+                    </button>
                   </form>
                 </div>
-                <div class="col-lg-4">
-                  <img src="images/aboutCamilo.jpg" class="img-fluid" alt="about me page">
+              </div>
+              <div class="row align-items-center">
+                <div class="col-1">
+                </div>
+                <div class="col-10">  
+                  <p>I used create-react-app to build this 'About Me' page.  I wanted a chance to show off some of my interests and to get more practice using React.  I gained valuable experience in laying out basic web content.  At first, I was focused on getting the carousel-like user interface up and running.  It wasn't until I got that working that I realized how much attention has to be paid to the details of laying out basic content such as writing and images.</p>
+                </div>
+                <div class="col-1">
                 </div>
               </div>
             </li>
             <li>
               <div class="row align-items-center">
-                <div class="col-lg-8">
+                <div class="col-3">
+                </div>
+                <div class="col-6">
+                  <img src="images/stripedTriangles.jpg" class="img-fluid" alt="striped triangle app">
+                </div>
+                <div class="col-3">
+                </div>
+              </div>
+              <div class="row align-items-center">
+                <div class="col-12">
                   <form>
-                    <button type="submit" formtarget="_blank" formaction="striped-triangles/index.html" class="projButton"><b>Striped Triangles</b></button>
-                    <p>Draw different size triangles by selecting radio buttons.  Most importantly, draw a striped triangle.  I wanted the challenge of identifying the slope of the different size triangles and using it to draw the separate parts of the striped triangle.  I was trying to come up with a way to combine my interest in React and HTML5 canvas.</p>
+                    <button
+                     type="submit"
+                     formtarget="_blank"
+                     formaction="striped-triangles/index.html"
+                     class="projButton">Striped Triangles
+                    </button>
                   </form>
                 </div>
-                <div class="col-lg-4">
-                  <img src="images/stripedTriangles.jpg" class="img-fluid" alt="about me page">
+              </div>
+              <div class="row align-items-center">
+                <div class="col-1">
+                </div>
+                <div class="col-10">  
+                  <p>Draw different size triangles by selecting radio buttons.  Most importantly, draw a striped triangle.  I wanted the challenge of identifying the slope of the different size triangles and using it to draw the separate parts of the striped triangle.  I was trying to come up with a way to combine my interest in React and HTML5 canvas.</p>
+                </div>
+                <div class="col-1">
                 </div>
               </div>
             </li>
           </ul>  
         </div>
       </div>
-      <div class="col-lg-6 text-center">
-      	<img id="eagle" src="images/thatEagle.jpg" class="img-fluid" alt="bald eagle">
-	    </div>
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-3 special">
+        
+        <img id="peace" src="images/peace.jpg" class="img-fluid" alt="peace sign">
+        <img id="eagle" src="images/thatEagle.jpg" class="img-fluid" alt="bald eagle">
+        <ul>
+          <li>JavaScript</li>
+          <li>C++</li>
+          <li>Python</li>
+          <li>REST</li>
+          <li><a href="https://github.com/camilothomas" target="_blank">GitHub</a></li>
+          <li>CSS</li>
+          <li>AWS Lambda</li>
+          <li>Bash</li>
+          <li>Asynchronous</li>
+          <li>OOP</li>
+          <li>Virtual Machines</li>
+        </ul>
+      </div>
+      <div class="col-md-1">
+      </div>
     </div>
   </div>  
   <!-- Bootstrap core JavaScript -->

@@ -2,19 +2,18 @@
 css for main portfolio page*/
 
 body {
-  background-color: #006293;
+  background-color: #bcaaa4;
 }
 
 nav {
-	/*font-family: 'Capriola';
-  background-image: url('images/black.png');*/
 }
 
 .container-fluid {    
   color: black;
-  font-family: 'Domine';         
+  font-family: 'Domine';
+  padding: 0;       
 }
-
+/*
 a:link {
   text-decoration: none;
   color: black;
@@ -34,13 +33,26 @@ a:active {
   text-decoration: none;
   color: black;
 }
-
+*/
 #eagle {
-  border-bottom-right-radius: 50%;
+  border: solid #efebe9;
+  border-width: 4px;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  
+}
+#peace {
+  border: solid #efebe9;
+  border-width: 4px;
+  padding: 0;
+  
+  
+  border-radius: 50%;
 }
 
 button:focus {
   outline: none;
+
 }
 
 button {
@@ -48,24 +60,23 @@ button {
 }
 
 .projList {
-  background-color: rgba(255, 255, 255, .75);
-  padding: 10px;
-  box-shadow: 0 0 50px 5px #987654 inset;
+  background-color: #efebe9;
+  border-top-right-radius: 25%;
 }
 
 .projList p {
-  margin-top: 25px;
+  
   text-align: left;
 }
 
 .mainProj {
-  background-color: #987654;
-  /*box-shadow: 0 15px 15px 1px black;
+  background-image: linear-gradient(to right, #efebe9, #bcaaa4);
+  /*background-color: #bcaaa4;
+  box-shadow: 0 15px 15px 1px black;
   margin-top: 15px;*/
 }
 
 .projButton {
-  
   font-size: 20px;
   padding: .25em;
 }
@@ -75,7 +86,28 @@ button {
   padding-bottom: 5px;
 }
 
+.reactProjHeader {
+  padding-bottom: 5px;
+}
+
 .warning {
-  margin: 0em;
   color: red;
+}
+
+.list-elements {
+  padding:10px;
+}
+
+#spacer {
+  color: #bcaaa4;
+}
+
+.special {
+  background-image: linear-gradient(#bcaaa4, #efebe9, #bcaaa4);
+  margin-top: 75px;
+}
+
+.special ul {
+  margin-top:15px;
+  list-style: none;
 }
