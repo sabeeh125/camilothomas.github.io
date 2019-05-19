@@ -35,18 +35,15 @@ a:active {
 }
 */
 #eagle {
-  border: solid #efebe9;
-  border-width: 4px;
+  border: solid #bcaaa4;
+  border-width: 10px;
   border-top-left-radius: 25%;
   border-top-right-radius: 25%;
   
 }
 #peace {
-  border: solid #efebe9;
-  border-width: 4px;
-  padding: 0;
-  
-  
+  border: solid #bcaaa4;
+  border-width: 10px;
   border-radius: 50%;
 }
 
@@ -61,7 +58,7 @@ button {
 
 .projList {
   background-color: #efebe9;
-  border-top-right-radius: 25%;
+  border-top-right-radius: 100px;
 }
 
 .projList p {
@@ -78,7 +75,7 @@ button {
 
 .projButton {
   font-size: 20px;
-  padding: .25em;
+  padding: .3em;
 }
 
 .projHeader {
