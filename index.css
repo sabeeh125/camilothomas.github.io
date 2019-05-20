@@ -11,7 +11,7 @@ nav {
 .container-fluid {    
   color: black;
   font-family: 'Domine';
-  padding: 0;       
+  padding: 0;
 }
 /*
 a:link {
@@ -49,7 +49,6 @@ a:active {
 
 button:focus {
   outline: none;
-
 }
 
 button {
@@ -59,18 +58,14 @@ button {
 .projList {
   background-color: #efebe9;
   border-top-right-radius: 100px;
+  margin-bottom: 0;
 }
-
 .projList p {
-  
   text-align: left;
 }
 
 .mainProj {
   background-image: linear-gradient(to right, #efebe9, #bcaaa4);
-  /*background-color: #bcaaa4;
-  box-shadow: 0 15px 15px 1px black;
-  margin-top: 15px;*/
 }
 
 .projButton {
@@ -83,10 +78,6 @@ button {
   padding-bottom: 5px;
 }
 
-.reactProjHeader {
-  padding-bottom: 5px;
-}
-
 .warning {
   color: red;
 }
@@ -95,16 +86,12 @@ button {
   padding:10px;
 }
 
-#spacer {
-  color: #bcaaa4;
-}
-
 .special {
   background-image: linear-gradient(#bcaaa4, #efebe9, #bcaaa4);
-  margin-top: 75px;
 }
 
 .special ul {
   margin-top:15px;
   list-style: none;
+  padding-left: 10px;
 }
