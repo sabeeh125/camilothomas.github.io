@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9b807f5b972cd5300e8e00b5d62ff7a3",
+    "revision": "213e909bf56169c5bde5ebd29eb6d1ac",
     "url": "/about/index.html"
   },
   {
-    "revision": "0bfbf77aac803f3622e4",
+    "revision": "90543028a71fc3089880",
     "url": "/about/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "b273bdb9e7363330741b",
-    "url": "/about/static/css/main.2e32ae2b.chunk.css"
+    "revision": "4d1c03b246ed595132df",
+    "url": "/about/static/css/main.1febe4e1.chunk.css"
   },
   {
-    "revision": "0bfbf77aac803f3622e4",
-    "url": "/about/static/js/2.3462bfd4.chunk.js"
+    "revision": "90543028a71fc3089880",
+    "url": "/about/static/js/2.e61cd800.chunk.js"
   },
   {
-    "revision": "b273bdb9e7363330741b",
-    "url": "/about/static/js/main.217ca172.chunk.js"
+    "revision": "4d1c03b246ed595132df",
+    "url": "/about/static/js/main.7371f98f.chunk.js"
   },
   {
     "revision": "5e7b65462749e51da51f",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b7d795c761165d2d4ff0eff1f0d3b5d4",
     "url": "/about/static/media/Atlas_bbb.b7d795c7.svg"
+  },
+  {
+    "revision": "449173aa22301574fdba9464f36b0e67",
+    "url": "/about/static/media/SheetMusic.449173aa.svg"
   },
   {
     "revision": "50d7ecf9ae4493a93163434310e8045d",
@@ -50,6 +54,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "243235f01d0259654273fc47f297a159",
     "url": "/about/static/media/close.243235f0.svg"
+  },
+  {
+    "revision": "8af0f8c5adae060a05f5f6391fc21876",
+    "url": "/about/static/media/discogs_logo_simplified.8af0f8c5.svg"
+  },
+  {
+    "revision": "03e25825a0b7e5b2ba7c18181dab8afa",
+    "url": "/about/static/media/discogs_vinyl_record_mark.03e25825.svg"
   },
   {
     "revision": "2296aead8f14360d49903bed5141ee8d",
@@ -94,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4cc0a437f359ec9a755a92b6db3f0a14",
     "url": "/about/static/media/painting.4cc0a437.jpg"
+  },
+  {
+    "revision": "b8583deb9753bd93658e1a51051a49df",
+    "url": "/about/static/media/player.b8583deb.png"
   },
   {
     "revision": "2578e7ce90ba5759eeb4de4f853314ad",
