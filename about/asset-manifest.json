@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/about/static/css/main.1febe4e1.chunk.css",
-    "main.js": "/about/static/js/main.7371f98f.chunk.js",
-    "main.js.map": "/about/static/js/main.7371f98f.chunk.js.map",
+    "main.css": "/about/static/css/main.39b1c2bf.chunk.css",
+    "main.js": "/about/static/js/main.7f72ad86.chunk.js",
+    "main.js.map": "/about/static/js/main.7f72ad86.chunk.js.map",
     "runtime~main.js": "/about/static/js/runtime~main.c0e869d3.js",
     "runtime~main.js.map": "/about/static/js/runtime~main.c0e869d3.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/about/static/css/2.22a7d4ef.chunk.css",
-    "static/js/2.e61cd800.chunk.js": "/about/static/js/2.e61cd800.chunk.js",
-    "static/js/2.e61cd800.chunk.js.map": "/about/static/js/2.e61cd800.chunk.js.map",
+    "static/js/2.802d6a1e.chunk.js": "/about/static/js/2.802d6a1e.chunk.js",
+    "static/js/2.802d6a1e.chunk.js.map": "/about/static/js/2.802d6a1e.chunk.js.map",
     "index.html": "/about/index.html",
-    "precache-manifest.cca4520d11f0ec032d595a9169259516.js": "/about/precache-manifest.cca4520d11f0ec032d595a9169259516.js",
+    "precache-manifest.54c52553d2d000b97b66dfd17e47724d.js": "/about/precache-manifest.54c52553d2d000b97b66dfd17e47724d.js",
     "service-worker.js": "/about/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/about/static/css/2.22a7d4ef.chunk.css.map",
-    "static/css/main.1febe4e1.chunk.css.map": "/about/static/css/main.1febe4e1.chunk.css.map",
+    "static/css/main.39b1c2bf.chunk.css.map": "/about/static/css/main.39b1c2bf.chunk.css.map",
     "static/media/index.css": "/about/static/media/Atlas_bbb.b7d795c7.svg",
-    "static/media/SheetMusic.svg": "/about/static/media/SheetMusic.449173aa.svg",
     "static/media/angels.jpg": "/about/static/media/angels.50d7ecf9.jpg",
     "static/media/art.jpg": "/about/static/media/art.e89a5a08.jpg",
     "static/media/atlanta.jpg": "/about/static/media/atlanta.3e53abfa.jpg",
@@ -23,6 +22,7 @@
     "static/media/close.svg": "/about/static/media/close.243235f0.svg",
     "static/media/discogs_logo_simplified.svg": "/about/static/media/discogs_logo_simplified.8af0f8c5.svg",
     "static/media/discogs_vinyl_record_mark.svg": "/about/static/media/discogs_vinyl_record_mark.03e25825.svg",
+    "static/media/dland.png": "/about/static/media/dland.8f368964.png",
     "static/media/field.jpg": "/about/static/media/field.2296aead.jpg",
     "static/media/folkArt.jpg": "/about/static/media/folkArt.d8b0b04a.jpg",
     "static/media/helmet.jpg": "/about/static/media/helmet.43352f47.jpg",
@@ -38,6 +38,7 @@
     "static/media/pyramids.jpg": "/about/static/media/pyramids.2578e7ce.jpg",
     "static/media/schloss.jpg": "/about/static/media/schloss.c351e048.jpg",
     "static/media/spanish.jpg": "/about/static/media/spanish.47259101.jpg",
+    "static/media/tagesschau.mp4": "/about/static/media/tagesschau.53acfd49.mp4",
     "static/media/travel.jpg": "/about/static/media/travel.9ca76867.jpg"
   }
 }
