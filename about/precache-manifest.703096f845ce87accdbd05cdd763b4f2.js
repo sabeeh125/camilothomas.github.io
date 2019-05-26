@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfc7c4d330f1b01d7a2736fcc3368f79",
+    "revision": "5bf5a3f60ef50cece79ef4f6cf50aeee",
     "url": "/about/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/css/2.22a7d4ef.chunk.css"
   },
   {
-    "revision": "e6baffe62aff3a959935",
+    "revision": "c8fee4ff46d17469f7c1",
     "url": "/about/static/css/main.a42111fe.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/js/2.692f9758.chunk.js"
   },
   {
-    "revision": "e6baffe62aff3a959935",
-    "url": "/about/static/js/main.62f777f4.chunk.js"
+    "revision": "c8fee4ff46d17469f7c1",
+    "url": "/about/static/js/main.a831eb91.chunk.js"
   },
   {
     "revision": "5e7b65462749e51da51f",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/media/berlin.1bddb63e.jpg"
   },
   {
-    "revision": "af33e25c685d56e4f7761a687836085e",
-    "url": "/about/static/media/bisquets.af33e25c.jpg"
+    "revision": "ee8adcd0bec0618968f1c7c26673c4f8",
+    "url": "/about/static/media/bisquets.ee8adcd0.jpg"
   },
   {
     "revision": "557d691b150ca3a26f482e8309708209",
@@ -56,8 +56,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/media/close.243235f0.svg"
   },
   {
-    "revision": "cf95b1a982e4056c3f91cf4776157d7f",
-    "url": "/about/static/media/david.cf95b1a9.jpg"
+    "revision": "58f2ad3f18a43898f8586a75251906fa",
+    "url": "/about/static/media/david.58f2ad3f.jpg"
   },
   {
     "revision": "8af0f8c5adae060a05f5f6391fc21876",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/media/folkArt.d8b0b04a.jpg"
   },
   {
-    "revision": "dd471785244125f1204d4d4c438e209d",
-    "url": "/about/static/media/fox.dd471785.jpg"
+    "revision": "efc365b588491e56d8f5c759703620d8",
+    "url": "/about/static/media/fox.efc365b5.jpg"
   },
   {
     "revision": "43352f47c91f32934c5cc9fd4e0b4642",
@@ -96,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/media/huasteca.4ab83efd.jpg"
   },
   {
-    "revision": "6ca38ae30d61b47538618d995ef196e5",
-    "url": "/about/static/media/ice.6ca38ae3.jpg"
+    "revision": "cab16372ecb7a7f2990037b35db0edf4",
+    "url": "/about/static/media/ice.cab16372.jpg"
   },
   {
-    "revision": "c078fb89c66a7d699d7557fe6fcbd6f5",
-    "url": "/about/static/media/jungle.c078fb89.jpg"
+    "revision": "7fb7f5239c387b7c6cf5d7dfb59f0fe1",
+    "url": "/about/static/media/jungle.7fb7f523.jpg"
   },
   {
     "revision": "21393f54ad1bdfc6760502d6553e4458",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/media/malinche.ef764fa5.jpg"
   },
   {
-    "revision": "b08d40c5d83b2d01460ffce10b68077d",
-    "url": "/about/static/media/marqet.b08d40c5.jpg"
+    "revision": "90d8c8a4ad29ebf00366a92fbb4639f4",
+    "url": "/about/static/media/marqet.90d8c8a4.jpg"
   },
   {
     "revision": "24854b789b4f251c9f5a95afcbbbc6ea",
@@ -136,8 +136,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/media/player.b8583deb.png"
   },
   {
-    "revision": "88c29ccf3777fa4870db21b0273babcb",
-    "url": "/about/static/media/puroMarfil.88c29ccf.jpg"
+    "revision": "cc955ffd30fc8add063a3d7896b9510c",
+    "url": "/about/static/media/puroMarfil.cc955ffd.jpg"
   },
   {
     "revision": "2578e7ce90ba5759eeb4de4f853314ad",
@@ -148,8 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/about/static/media/schloss.c351e048.jpg"
   },
   {
-    "revision": "9e5bcad5a10c6c7827d6d77053dba61c",
-    "url": "/about/static/media/science.9e5bcad5.jpg"
+    "revision": "4953f2b0e7f69716d57ad045847947de",
+    "url": "/about/static/media/science.4953f2b0.jpg"
   },
   {
     "revision": "472591010e41ab9d92dd80cf8c27bd5d",
